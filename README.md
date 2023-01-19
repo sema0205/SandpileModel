@@ -1,5 +1,4 @@
-# Argument Parser
-
+# Sandpile Model
 
 Implementation of a simplified [Abelian Sandpile Model](https://en.wikipedia.org/wiki/Abelian_sandpile_model), which can save its states in a [BMP format](https://en.wikipedia.org/wiki/BMP_file_format) image.
 
