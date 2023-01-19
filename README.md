@@ -6,8 +6,6 @@ To implement a simplified [Abelian Sandpile Model](https://en.wikipedia.org/wiki
 
 The initial state and the size of the grid is specified.
 
-The size of the grid can change during the process *
-
 The implementation is a console application, which supports the following command-line arguments:
 
 **-l, --length**   - the length of the grid (guaranteed to fit in uint16_t)
