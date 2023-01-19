@@ -1,4 +1,4 @@
-# Laboratory Work 3
+# Argument Parser
 
 ## Task
 
