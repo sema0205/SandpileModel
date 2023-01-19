@@ -33,8 +33,6 @@ Each line contains information about one cell, in the form (x-coordinates, y-coo
 
 2. The state of the next generation of the cell depends only on the previous state of the grid
 
-3. In case the grains collapse outside the grid, they disappear / In case the grains collapse outside the grid, the size of the grid increases by 1 in the corresponding side*
-
 ## Program result
 
 The program must recalculate the model state according to the initial data, as well as save intermediate states with the specified frequency (if 0, only the final state is saved).
