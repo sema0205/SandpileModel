@@ -1,12 +1,11 @@
 # Argument Parser
 
-## Task
 
-To implement a simplified [Abelian Sandpile Model](https://en.wikipedia.org/wiki/Abelian_sandpile_model), which can save its states in a [BMP format](https://en.wikipedia.org/wiki/BMP_file_format) image.
+Implementation of a simplified [Abelian Sandpile Model](https://en.wikipedia.org/wiki/Abelian_sandpile_model), which can save its states in a [BMP format](https://en.wikipedia.org/wiki/BMP_file_format) image.
 
 The initial state and the size of the grid is specified.
 
-The implementation is a console application, which supports the following command-line arguments:
+Console application, which supports the following command-line arguments:
 
 **-l, --length**   - the length of the grid (guaranteed to fit in uint16_t)
 
@@ -35,4 +34,4 @@ Each line contains information about one cell, in the form (x-coordinates, y-coo
 
 ## Program result
 
-The program must recalculate the model state according to the initial data, as well as save intermediate states with the specified frequency (if 0, only the final state is saved).
+The program recalculates the model state according to the initial data, as well as saves intermediate states with the specified frequency (if 0, only the final state is saved).
